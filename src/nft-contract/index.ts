@@ -29,9 +29,9 @@ export class Contract extends NearContract {
     constructor({
         owner_id, 
         metadata = {
-            spec: "nft-1.0.0",
-            name: "NFT Tutorial Contract",
-            symbol: "GOTEAM"
+            spec: "nomadFi-nft-1.0.0",
+            name: "NomadFi NFT Contract",
+            symbol: "Oneshot"
         } 
     }) {
         super()
